@@ -1,0 +1,17 @@
+{
+  "name": "slack-jokebot",
+  "version": "1.0.0",
+  "description": "A slackbot for random Developer jokes",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
+  "author": "Jason Howie",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/bolt": "^2.5.0",
+    "axios": "^0.21.0",
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.6"
+  }
+}
